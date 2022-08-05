@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/andreyevyk/.nvm/versions/node/v16.15.1/bin/node /Users/andreyevyk/.yarn/bin/yarn.js add -D git-commit-msg-linter
+
+PATH: 
+  /Users/andreyevyk/.yarn/bin:/Users/andreyevyk/.config/yarn/global/node_modules/.bin:/Users/andreyevyk/.nvm/versions/node/v16.15.1/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/git-commit-msg-linter: ETIMEDOUT
+      at Timeout._onTimeout (/Users/andreyevyk/.yarn/lib/cli.js:141550:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "twd-clean-architecture",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Andrey Evyk <andreyevyk13@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
