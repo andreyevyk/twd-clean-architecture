@@ -13,11 +13,9 @@ export class InMemoryUserRepository implements UserRepository {
   }
 
   async findUserByEmail (email: string): Promise<UserDto> {
-    const users = this.repository.filter(user => user.email === email)
-    if (users.length) {
-      return users[0]
-    }
-    return null
+    const found = this.repository.find(user => user.email === email)
+
+    return found || null
   }
 
   async findAllUsers (): Promise<UserDto[]> {
